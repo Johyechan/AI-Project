@@ -1,0 +1,29 @@
+{
+    "MummyGo": {
+        "checkpoints": [
+            {
+                "steps": 6799,
+                "file_path": "D:\\MyUnityGames\\MLAgent_Practice\\ml-agents-release_20\\results--force\\mummy\\MummyGo\\MummyGo-6799.onnx",
+                "reward": 0.0,
+                "creation_time": 1710140303.392892,
+                "auxillary_file_paths": [
+                    "D:\\MyUnityGames\\MLAgent_Practice\\ml-agents-release_20\\results--force\\mummy\\MummyGo\\MummyGo-6799.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 6799,
+            "file_path": "D:\\MyUnityGames\\MLAgent_Practice\\ml-agents-release_20\\results--force\\mummy\\MummyGo.onnx",
+            "reward": 0.0,
+            "creation_time": 1710140303.392892,
+            "auxillary_file_paths": [
+                "D:\\MyUnityGames\\MLAgent_Practice\\ml-agents-release_20\\results--force\\mummy\\MummyGo\\MummyGo-6799.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

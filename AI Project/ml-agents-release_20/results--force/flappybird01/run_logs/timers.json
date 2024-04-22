@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1712557330",
+        "python_version": "3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\mlagents-learn D:\\MyUnityGames\\MLAgent_Practice\\ml-agents-release_20\\config\\ppo\\FlappyBird.yaml --run-id=flappybird01 --results-dir=D:\\MyUnityGames\\MLAgent_Practice\\ml-agents-release_20\\results--force",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1712557338"
+    },
+    "total": 7.816985699999999,
+    "count": 1,
+    "self": 0.008099099999999027,
+    "children": {
+        "run_training.setup": {
+            "total": 0.07460090000000008,
+            "count": 1,
+            "self": 0.07460090000000008
+        },
+        "TrainerController.start_learning": {
+            "total": 7.7342857,
+            "count": 1,
+            "self": 0.000136299999999423,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 7.7341285,
+                    "count": 1,
+                    "self": 7.7341285
+                },
+                "TrainerController._save_models": {
+                    "total": 2.090000000087855e-05,
+                    "count": 1,
+                    "self": 2.090000000087855e-05
+                }
+            }
+        }
+    }
+}
